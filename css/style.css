@@ -190,3 +190,29 @@ nav {
         font-size: 3em;
     }
 }
+
+@media (max-width: 1200px) {
+    .circle, .starbucks {
+        display: none;
+    }
+
+    .textBox {
+        max-width: 100%;
+    }
+
+    .social-media img {
+        filter: invert(0);
+    }
+}
+
+@media (max-width: 1020px) {
+    .container {
+        max-width: 600px;
+    }
+
+    .textBox h2, p, a {
+        display: block;
+        text-align: center;
+    }
+}
+
